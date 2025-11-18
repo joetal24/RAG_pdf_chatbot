@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-groq        # or install whatever package integrates Grok -> if not available, use custom wrapper via requests
+langchain-community   # for community embeddings connectors (optional)
+sentence-transformers
+chromadb              # or faiss-cpu
+pdfplumber
+PyPDF2
+tiktoken              # langchain sometimes expects tokenizers
+requests
